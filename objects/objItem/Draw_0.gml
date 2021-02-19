@@ -1,0 +1,3 @@
+//quando o item for criado, vai ter todas as informações básicas, porém no eixo Y vai acrescentar o eixo Z para ele cair, de resto mantém todas as infos
+//Aparentemente para fazer o efeito do objeto cair, vc precisa adicionar algo em um dos eixos, mas no caso ele tá acrescentando na altura mesmo.
+draw_sprite_ext(sprite_index, image_index,x, y+zAxis, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
